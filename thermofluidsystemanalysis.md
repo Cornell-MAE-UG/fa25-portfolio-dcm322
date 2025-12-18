@@ -2,7 +2,6 @@
 layout: project
 title: "Thermofluid System Analysis"
 description: "We analyzed a thermodynamic cycle using an engine."
-technologies: [MATLAB, SolidWorks]
 images:/assets/images/stroke.jpeg
  
 ---
@@ -11,7 +10,7 @@ We were asked to create an analysis of a thermodynamic cycle, so we decided to u
 
 In this project, we modeled and analyzed a thermodynamic cycle using MATLAB and SolidWorks. We examined key parameters such as temperature, pressure, and efficiency. The goal was to understand the performance of the system and optimize the design for practical applications.
 
-ngine:
+Engine:
 
 
 1. Intake:
