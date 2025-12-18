@@ -3,23 +3,93 @@ layout: project
 title: Analysis of Functions
 description: Class project with Graphs
 technologies: [MATLAB, python]
-image: /assets/images/function-graph.png
+image: /assets/images/stroke.jpeg
 ---
 
 
-As part of a class project...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-
-Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+As part of a class project we were instructed to analyze a thermodynamic cycle. 
 
 
 This is how I solved the problem:
 
-```python
-    some code = 10;
-    plot();
-```
+Engine:
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
 
+1. Intake:
+Intake valve, piston moves down and an air-fuel mixture enter
+
+2. Compression:
+Piston moves up and the air-fuel mixture is compressed, T and P increase
+
+3. Power:
+Spark ignites the mixture, combustion increases P, expanding gas pushes piston creating work
+
+4. Exhaust:
+Valve opens and piston pushes exhaust gases out.
+
+⸻
+
+3.
+
+Air + fuel → | piston | → Exhaust valve
+spark plug
+valve
+
+ṁ_in = ṁ_out
+dm/dt = 0
+
+⸻
+
+4A.
+
+ΔS_sys = 0
+
+= ∫(δQ_rev / T) + σ
+
+σ = − ∫(δQ_rev / T)
+
+Main sources of entropy generation:
+	•	Combustion irreversibility
+	•	Finite heat transfer
+	•	Friction
+
+Minimizing entropy change will increase useful work.
+
+⸻
+
+4B.
+
+ΔU = Q − W
+Steady state
+
+ΔU = 0
+
+W_out = Q_in − Q_out
+
+Q_in = m c_v (T₃ − T₂)
+Q_out = m c_v (T₄ − T₁)
+
+→ W = m c_v (T₃ + T₁ − T₄ − T₂)
+
+W_net = ṁ_fuel (η_engine)
+
+⸻
+
+4C.
+
+η = 1 − (Q_out / Q_in) = 1 − (T₄ − T₁) / (T₃ − T₂)
+
+⸻
+
+5. Increase efficiency of engine
+
+If efficiency increases, T₃ − T₂ must increase
+
+Knock (autoignition): Increasing r raises cylinder temperature and pressure during compression so there is less high quality
+
+Mechanical stress / durability: Higher pressures raise peak mechanical loads on pistons which means more expensive and higher quality materials
+
+Real efficiency vs ideal: Real engines have friction, pumping losses, non-ideal combustion, and heat transfer losses, which makes the real engine much less efficient
+
+Alternative approach — turbocharging: Instead of increasing static compression ratio, many engines use a boosted intake (turbo/supercharging) to increase the ṁ_dot. Turbocharging increases power and can increase thermal efficiency at part load, but it increases intake temperature.
 
