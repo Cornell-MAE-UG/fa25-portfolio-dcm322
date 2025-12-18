@@ -2,7 +2,7 @@
 layout: project
 title: "Thermofluid System Analysis"
 description: "We analyzed a thermodynamic cycle using an engine."
-images:/assets/images/stroke.jpeg
+image:/assets/images/stroke.jpeg
  
 ---
 
