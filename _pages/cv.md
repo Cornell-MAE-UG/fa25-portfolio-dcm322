@@ -1,13 +1,13 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Daasabre McPhee-Djan - Curriculum Vitae
 ---
 ## Curriculum Vitae
 
 
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [dcm322@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
 
 ---
 
