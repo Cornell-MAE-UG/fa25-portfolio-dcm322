@@ -10,3 +10,6 @@ gem "jekyll-feed"
 gem "github-pages", group: :jekyll_plugins
 gem "csv"
 gem "bigdecimal"
+
+# Remove this old Liquid pin:
+# gem "liquid", "~> 3.1"
