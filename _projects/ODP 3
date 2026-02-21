@@ -1,0 +1,60 @@
+---
+layout: project
+title: SLF-Grape Density Separator
+description: Class project with Graphs
+---
+# SLF–Grape Water-Based Density Separator
+
+**Team:** LanternBye  
+**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
+
+---
+
+## Problem Statement
+Grape growers are trying to collect grapes using mechanical harvesters, but both spotted lanternflies (SLFs) and grapes are harvested together, contaminating the product and causing financial losses due to inefficiency. Obvious solutions are difficult to implement because SLFs do not fly off when grapevines are shaken during harvesting, causing SLFs and grapes to mix in harvesting containers. Therefore, SLFs and grapes must be separated during the harvesting process before they are stored and crushed together.
+
+---
+
+## Impact
+Over time, this approach could help decrease the SLF population while ideally not forcing growers to change their existing processing systems and equipment. This solution should also increase the percentage of usable yield.
+
+---
+
+## Proposed Direction: Density Separator
+
+### What it is
+A water-based separation system that uses density differences to separate SLFs from grapes immediately after harvesting.
+
+### How it would be used
+- Mechanical shaker dislodges grapes and SLFs from grapevines  
+- The mixture enters a controlled stream of water  
+- Grapes sink and are collected in a drain at the bottom  
+- SLFs float and are diverted to another area for collection or extermination  
+
+### Why it’s better than the status quo
+There are no highly effective solutions that remove SLFs from grapes before processing; this approach helps increase grape crop yield by preventing contamination early.
+
+### End-of-semester proof-of-concept
+A small-scale model capable of separating a mixture of SLFs and grapes by density with a measurable margin of error.
+
+---
+
+## Key Risks / Unknowns
+
+- **Strength of SLFs** — If SLFs can hold onto grapes long enough, they will be harvested alongside them. We will test this by dropping SLFs holding grapes into water and observing their behavior. If necessary, we will explore adding fruit-safe soap to reduce grip.
+
+- **Grape submersion** — Water exposure may affect grape quality or texture. We will compare stored wet and dry grapes and evaluate drainage methods to inform the final design.
+
+---
+
+## Questions for the Client
+
+1. **When in processing are grapes cleaned?**  
+   Can this be integrated into that system to save time? If grapes have soap on them, do they need to be rinsed or dried again?  
+   *Decision affected:* Whether soap can be added to the water mixture.
+
+2. **At what point in harvesting does pulverization occur, and when does washing significantly affect yield?**  
+   *Decision affected:* Whether grapes can be washed without lowering yield.
+
+3. **What grape harvester models are most commonly used, and what are the dimensions of collection bins?**  
+   *Decision affected:* The size and placement of the device on harvesters.
