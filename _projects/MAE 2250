@@ -1,0 +1,230 @@
+---
+layout: project
+title: SLF-Grape Density Separator
+description: Class project with Graphs
+image: 
+---
+SLF–Grape Water-Based Density Separator
+
+**Team:** LanternBye  
+**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
+
+---
+
+## Problem Statement
+Grape growers are trying to collect grapes using mechanical harvesters, but both spotted lanternflies (SLFs) and grapes are harvested together, contaminating the product and causing financial losses due to inefficiency. Obvious solutions are difficult to implement because SLFs do not fly off when grapevines are shaken during harvesting, causing SLFs and grapes to mix in harvesting containers. Therefore, SLFs and grapes must be separated during the harvesting process before they are stored and crushed together.
+
+---
+
+## Impact
+Over time, this approach could help decrease the SLF population while ideally not forcing growers to change their existing processing systems and equipment. This solution should also increase the percentage of usable yield.
+
+---
+
+## Proposed Direction: Density Separator
+
+### What it is
+A water-based separation system that uses density differences to separate SLFs from grapes immediately after harvesting.
+
+### How it would be used
+- Mechanical shaker dislodges grapes and SLFs from grapevines  
+- The mixture enters a controlled stream of water  
+- Grapes sink and are collected in a drain at the bottom  
+- SLFs float and are diverted to another area for collection or extermination  
+
+### Why it’s better than the status quo
+There are no highly effective solutions that remove SLFs from grapes before processing; this approach helps increase grape crop yield by preventing contamination early.
+
+### End-of-semester proof-of-concept
+A small-scale model capable of separating a mixture of SLFs and grapes by density with a measurable margin of error.
+
+---
+
+## Key Risks / Unknowns
+
+- **Strength of SLFs** — If SLFs can hold onto grapes long enough, they will be harvested alongside them. We will test this by dropping SLFs holding grapes into water and observing their behavior. If necessary, we will explore adding fruit-safe soap to reduce grip.
+
+- **Grape submersion** — Water exposure may affect grape quality or texture. We will compare stored wet and dry grapes and evaluate drainage methods to inform the final design.
+
+---
+
+## Questions for the Client
+
+1. **When in processing are grapes cleaned?**  
+   Can this be integrated into that system to save time? If grapes have soap on them, do they need to be rinsed or dried again?  
+   *Decision affected:* Whether soap can be added to the water mixture.
+
+2. **At what point in harvesting does pulverization occur, and when does washing significantly affect yield?**  
+   *Decision affected:* Whether grapes can be washed without lowering yield.
+
+3. **What grape harvester models are most commonly used, and what are the dimensions of collection bins?**  
+   *Decision affected:* The size and placement of the device on harvesters.
+
+
+
+# MAE 2250 Project – LanternBye  
+**Spotted Lanternfly Separation System for Vineyards**
+
+**Team Members:** Katie Kim, Julia Cho, Daasabre McPhee-Djan, Toby Young, Tim Duffy  
+
+This project focuses on designing a practical engineering solution to reduce contamination of harvested grapes by spotted lanternflies (SLF). Our team developed a density-based separation system that integrates into existing vineyard harvesting equipment to improve crop quality and efficiency.
+
+---
+
+## Project Milestones
+
+- [Client Pitch](#client-pitch)  
+- [Functional Prototype](#functional-prototype)  
+- [Client Report](#client-report)  
+
+---
+
+## Client Pitch
+
+### Problem Overview
+Over the past decade, spotted lanternflies (SLF) have become a major issue for vineyards across the United States. During mechanical harvesting, both grapes and SLF are dislodged simultaneously, leading to contamination that reduces grape quality and processing efficiency.
+
+### Proposed Solution
+Our team proposed a **density-based separation system** using sugar water to separate SLF from grapes immediately after harvest.
+
+### Key Value
+- Improves grape quality  
+- Reduces contamination early in the process  
+- Works in real time during harvesting  
+- Uses low-cost, accessible materials  
+
+---
+
+## Functional Prototype
+
+### Prototype Description
+Our prototype consists of:
+- A primary separation container  
+- A rotating “water wheel” mechanism  
+- A drainage and recirculation system  
+
+### How It Works
+1. Grapes and SLF fall into a sugar-water container  
+2. Grapes (higher density) sink  
+3. SLF (lower density) float  
+4. A rotating water wheel removes SLF  
+5. Grapes exit through a bottom opening  
+6. Sugar water is drained and recirculated  
+
+### Key Features
+- Closed-loop liquid system  
+- Continuous operation  
+- Simple and modular design  
+
+---
+
+## Client Report
+
+### Context & Problem Statement
+Over the past decade, spotted lanternflies (SLF) have become a large issue for vineyards across the United States, impacting both grape quality and harvest quantity.
+
+Our team focused on the problem of **SLF mixing with grapes during mechanical harvesting**, when shaker systems dislodge both grapes and insects.
+
+This sub-problem was selected because solving it:
+- Improves harvest quality immediately  
+- Fits within existing harvesting systems  
+- Enables a fast and efficient process  
+- Uses accessible materials (e.g., sugar water)  
+
+Constraints considered:
+- Material availability  
+- Fabrication time  
+- Cost  
+- Risk of sugar dilution in grapes  
+- Short processing time between vine and collection  
+
+---
+
+### Final Prototype & Application
+
+Our final prototype is a **grape juice or sugar water-based separation system** that uses density differences to separate SLF from grapes.
+
+**Process:**
+- Grapes sink and move through a slanted (~10°) opening  
+- SLF float and are removed using a rotating water-wheel mechanism  
+- Grapes and liquid move into a second container with drainage holes  
+- Sugar water is recirculated using a pump  
+
+**Implementation:**
+The system is designed to be placed directly beneath the mechanical shaker of harvesters, ensuring all harvested material passes through the separation process.
+
+**Benefits:**
+- Requires only one batch of sugar water  
+- Recirculates fluid efficiently  
+- Integrates into existing harvesting workflows  
+
+---
+
+### Testing & Results
+
+#### Mechanical Motion Test
+**Goal:** Ensure smooth rotation of the water wheel  
+**Result:** Wheel could not fully rotate due to interference with tapered container  
+**Conclusion:** A rectangular, untapered container is required  
+
+---
+
+#### Structural Stability Test
+**Goal:** Evaluate strength and stability of the water wheel assembly  
+**Result:** Components slipped and became unstable during rotation  
+**Conclusion:** Epoxy bonding is required to secure components  
+
+---
+
+### Implications
+- Core separation concept works  
+- Mechanical and structural improvements are needed  
+- Design modifications will improve efficiency and durability  
+
+---
+
+### Prototype & Design Details
+
+**Materials Used:**
+- Two laser-cut ⅛” acrylic wheels  
+- 1” PVC pipe  
+- Aluminum fins (from perforated sheet)  
+
+**Assembly:**
+- Acrylic wheels designed with central hole and fin slots  
+- PVC pipe inserted as axle  
+- Aluminum fins inserted into slots  
+- Second wheel attached to secure assembly  
+- Container modified with cutouts and drainage opening  
+- Water wheel mounted inside container  
+
+---
+
+### Conclusion & Recommendations
+
+Our team believes this design is **promising and worth further development**, but not yet ready for field deployment.
+
+**Strengths:**
+- Effective density-based separation  
+- Low-cost materials  
+- Compatible with existing systems  
+- Efficient fluid recirculation  
+
+**Next Steps:**
+- Improve structural durability (epoxy bonding)  
+- Redesign container geometry  
+- Optimize sugar-water concentration  
+- Adapt system for different harvester designs  
+- Conduct field testing  
+
+---
+
+### Final Recommendation
+
+This design is **promising but requires further refinement and testing** before implementation. With continued development, it has strong potential to improve vineyard harvesting efficiency and grape quality.
+
+---
+
+## Optional: Full Report
+(Add link if needed)
+[Download Full Client Report (PDF)](#)
