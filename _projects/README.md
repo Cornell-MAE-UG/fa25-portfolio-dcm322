@@ -2,7 +2,7 @@
 
 A self-designed, self-built elevated couch platform with a lounge area underneath. I designed the frame in dimensional lumber, tied it together with structural connectors, and then checked it with a statics and strength-of-materials analysis in Python.
 
-![Front view](images/front-view.jpg)
+![Front view](/assets/images/front-view.jpg)
 
 ## Design goals
 
